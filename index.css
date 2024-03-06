@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "DM SANS";
+}
+
+.navbar {
+  background-color: #6f6af7;
+  color: white;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  cursor: pointer;
+}
+.more img {
+  height: 4px;
+}
+
+.searchIcon img {
+  height: 13px;
+  padding: 7px;
+  width: 14px;
+  margin-left: 35px;
+}
+.social-icons img {
+  border: none;
+  width: 42px;
+  height: 40px;
+  border: none;
+  border: solid black;
+  border-radius: 8px;
+}
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  top: 80px;
+  position: sticky;
+  float: right;
+  margin-top: 38vh;
+  right: 170px;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  margin-left: 41px;
+  margin-top: 5px;
+}
+.ul li {
+  width: 70px;
+}
+.search {
+  height: 30px;
+  border: none;
+  border-radius: 21px;
+  width: 173px;
+}
+.logo img {
+  padding: 36px;
+  width: 137px;
+  height: 35px;
+  margin-top: 7px;
+}
+
+.menu-icon img {
+  padding: 40px;
+  width: 41px;
+  height: 37px;
+}
+
+.First-banner {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 6px;
+  gap: 15px;
+  padding: 139px 100px 12px 136px;
+}
+
+.First-banner img {
+  height: 272px;
+}
+
+.First-banner p {
+  padding: 13px;
+  height: 250px;
+  width: 514px;
+  background-color: #e5d8ff;
+  border: none;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: small;
+  color: #6f7373;
+}
+
+.First-banner input::placeholder {
+  text-align: start;
+  white-space: normal;
+}
+.First-banner ul {
+  position: sticky;
+  list-style-type: none;
+  top: 0;
+}
+.First-banner ul li img {
+  height: 37px;
+  width: 40px;
+}
+.First-banner ul li {
+  border: 2px;
+}
+.mid-banner {
+  display: flex;
+  justify-content: center;
+  padding: 53px;
+  gap: 70px;
+  margin-right: 5px;
+}
+.card1 {
+  height: 60px;
+  width: 150px;
+  background-color: #929dff;
+  box-shadow: 0px 9px 31px 0px #00000066;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+.card2 {
+  height: 60px;
+  width: 150px;
+  background-color: #734cf2;
+  box-shadow: 0px 9px 31px 0px #00000066;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+.card3 {
+  height: 60px;
+  width: 150px;
+  background-color: #d288ff;
+  box-shadow: 0px 9px 31px 0px #00000066;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+.card4 {
+  height: 60px;
+  width: 150px;
+  background-color: black;
+  box-shadow: 0px 9px 31px 0px #00000066;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+.p0 {
+  font-size: 0.8rem;
+  text-align: justify;
+  margin-top: 10px;
+  margin-left: 14px;
+  color: white;
+}
+.second-banner {
+  display: flex;
+  height: 315px;
+  width: 785px;
+  background-color: #483eff;
+  margin-left: 236px;
+  border-radius: 9px;
+
+  align-items: center;
+  top: 38px;
+  position: relative;
+}
+.second-banner ul {
+  text-align: center;
+}
+.second-banner ul li {
+  color: white;
+  margin: 10px;
+  margin-left: 54px;
+  padding: 19px;
+  list-style-type: none;
+  width: 133px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 11px;
+  cursor: pointer;
+
+  border: 2px solid;
+}
+
+.banner-card {
+  background-color: white;
+  color: #04285a;
+  margin-left: 54px;
+  margin-bottom: 0px;
+  border-radius: 9px;
+  width: calc(100% - 40px);
+  max-width: 481px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: auto;
+  height: 297px;
+}
+.p1 {
+  padding: 10px;
+  margin-left: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.second-banner ul li:first-child {
+  background-color: #bce0f6;
+  box-shadow: 0px 9px 31px 0px #00000066;
+  color: black;
+  font-weight: bold;
+}
+
+.next-btn {
+  width: 67px;
+  height: 31px;
+  margin-top: 37px;
+  margin-left: 339px;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  border: none;
+  text-align: end;
+  padding: 7px;
+  cursor: pointer;
+}
+.next-btn img {
+  width: 17px;
+  height: 10px;
+}
+.help-icon {
+  position: fixed;
+  left: 77%;
+  background-color: white;
+  z-index: 2;
+  height: 61px;
+  width: 64px;
+  text-align: center;
+  top: 489px;
+  border-radius: 58px;
+}
+.help-icon img {
+  width: 45px;
+  height: 44px;
+  padding: 8px;
+}
